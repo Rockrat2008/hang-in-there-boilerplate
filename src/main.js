@@ -417,5 +417,10 @@ function deletePoster() {
 
     cleanPosters.splice(parentNodeId, 1);
     parentNode.remove();
+  } else if(targetTag === 'article') {
+    let deleteNode = event.target
+
+    cleanPosters.splice(targetTag.id, 1);
+    deleteNode.remove();
   }
 }
