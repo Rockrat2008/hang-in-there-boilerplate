@@ -1,15 +1,15 @@
 // query selector variables go here 👇
 
 // buttons
-let savePosterButton = document.querySelector('.save-poster'),                          // saves the poster to the poster array
-    showSavedButton = document.querySelector('.show-saved'),                            // shows the saved posters page
-    showRandomButton = document.querySelector('.show-random'),                          // shows a new random poster
-    makePosterButton = document.querySelector('.show-form'),                            // loads the form to create a poster
-    showUnmotivationalPostersButton = document.querySelector('.unmotivational-posters') // shows unmotivational posters
-    showMyPosterButton = document.querySelector('.make-poster')                         // loads the main page and displays the poster you created
-    showMainButton = document.querySelector('.show-main'),                              // loads the main page from the make a poster form page
-    backToMainButton = document.querySelector('.back-to-main'),                         // loads the main page from the saved posters page
-    returnToMainButton = document.querySelector('.return-to-main')                        // loads the main page from the unmotivational posters page
+let savePosterButton = document.querySelector('.save-poster'),
+    showSavedButton = document.querySelector('.show-saved'),
+    showRandomButton = document.querySelector('.show-random'),
+    makePosterButton = document.querySelector('.show-form'),
+    showUnmotivationalPostersButton = document.querySelector('.unmotivational-posters')
+    showMyPosterButton = document.querySelector('.make-poster')
+    showMainButton = document.querySelector('.show-main'),
+    backToMainButton = document.querySelector('.back-to-main'),
+    returnToMainButton = document.querySelector('.return-to-main')
 
 // pages
 let togglePosterForm = document.querySelector('.poster-form'),
